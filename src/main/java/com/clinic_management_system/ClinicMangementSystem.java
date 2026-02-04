@@ -8,10 +8,10 @@ import org.slf4j.LoggerFactory;
  *
  */
 public class ClinicMangementSystem {
-	private static final Logger myLogger = LoggerFactory.getLogger(ClinicMangementSystem.class);
+	private static final Logger myLogger = LoggerFactory.getLogger(ClinicMangementSystem.class.getName());
 
 	public static void main(String[] args) {
+		myLogger.info(" Clinic Mangement Start: ");
 
-		
 	}
 }
